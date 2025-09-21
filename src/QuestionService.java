@@ -10,11 +10,11 @@ public class QuestionService {
     boolean playAgain = true;
 
     public QuestionService() {
-        question[0] = new Question(1, "What","Java","C++","Python","Java", "Ruby");
-        question[1] = new Question(2, "Why","Java","C++","Python","Java", "Ruby");
-        question[2] = new Question(3, "How","Java","C++","Python","Java", "Ruby");
-        question[3] = new Question(4, "Where","Java","C++","Python","Java", "Ruby");
-        question[4] = new Question(5, "Whenever","Java","C++","Python","Java", "Ruby");
+        question[0] = new Question(1, "Which of the following is a mutable data type in Python?","list","tuple","string","list", "int");
+        question[1] = new Question(2, "What will the following code output?\nprint(2 ** 3 ** 2)","512","64","512","36", "256");
+        question[2] = new Question(3, "In Java, which keyword is used to prevent a class from being inherited?","final","static","abstract","final", "const");
+        question[3] = new Question(4, "Which SQL statement is used to remove a table completely from a database?","DROP","DELETE","REMOVE","TRUNCATE", "DROP");
+        question[4] = new Question(5, "n Big-O notation, which of the following represents the fastest growing complexity?","O(2^n)","O(log n)","O(2^n)","O(n)", "O(n log n)");
 
     }
 
